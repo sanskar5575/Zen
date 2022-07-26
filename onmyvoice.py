@@ -93,7 +93,7 @@ if __name__ == "__main__":
          elif 'yourself' in query:
             speak("my name is Zen. i am a desktop assistant, i am able to open any application or any websites for you ")
          
-         elif 'github' in query:
+         elif 'github ' in query:
             webbrowser.open("https://github.com/")
 
          elif 'reminder' in query: 
