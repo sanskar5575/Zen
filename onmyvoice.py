@@ -96,7 +96,7 @@ if __name__ == "__main__":
          elif 'github' in query:
             webbrowser.open("https://github.com/")
 
-         elif 'reminder' in query:
+         elif 'reminder' in query: 
 
             for rm in f:
                 print(rm)
